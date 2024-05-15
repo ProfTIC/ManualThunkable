@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>2. Configuración básica | Manual básico de Thunkable: mi primera aplicación móvil </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="María Dolores Robles Ortega" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-2"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Manual básico de Thunkable: mi primera aplicación móvil</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Manual básico de Thunkable: mi primera aplicación móvil</a></li>
+   <li><a href="1_crear_el_proyecto.html" class="no-ch">1. Crear el proyecto</a></li>
+   <li id="active"><a href="2_configuracin_bsica.html" class="active no-ch">2. Configuración básica</a></li>
+   <li><a href="3_crear_una_nueva_pantalla.html" class="no-ch">3. Crear una nueva pantalla</a></li>
+   <li><a href="4_incluir_componentes_bsicos_en_las_pantallas.html" class="daddy">4. Incluir componentes básicos en las pantallas</a>
+   <ul class="other-section">
+      <li><a href="41_botn.html" class="no-ch">4.1. Botón</a></li>
+      <li><a href="42_etiqueta_label.html" class="no-ch">4.2. Etiqueta (label)</a></li>
+      <li><a href="43_texto.html" class="no-ch">4.3. Texto</a></li>
+      <li><a href="44_imgenes.html" class="no-ch">4.4. Imágenes</a></li>
+      <li><a href="45_nombre_de_los_componentes.html" class="no-ch">4.5. Nombre de los componentes</a></li>
+   </ul>
+   </li>
+   <li><a href="5_incluyendo_interactividad.html" class="daddy">5. Incluyendo interactividad</a>
+   <ul class="other-section">
+      <li><a href="51_cambiar_a_la_vista_programacin_bloques.html" class="no-ch">5.1. Cambiar a la vista programación (bloques)</a></li>
+      <li><a href="52_elementos_de_la_pantalla_de_bloques.html" class="no-ch">5.2. Elementos de la pantalla de bloques</a></li>
+      <li><a href="53_cmo_programo_una_aplicacin_mvil_qu_es_la_programacin_orientada_a_eventos.html" class="daddy">5.3. ¿Cómo programo una aplicación móvil? ¿Qué es la programación orientada a eventos?</a>
+      <ul class="other-section">
+         <li><a href="531_programar_el_botn_inicio.html" class="no-ch">5.3.1. Programar el botón inicio</a></li>
+         <li><a href="532_establecemos_el_cambio_de_pantalla_cuando_se_pulse_el_botn_inicio.html" class="no-ch">5.3.2. Establecemos el cambio de pantalla cuando se pulse el botón inicio</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li><a href="6_compartir_el_proyecto.html" class="no-ch">6. Compartir el proyecto</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="1_crear_el_proyecto.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="3_crear_una_nueva_pantalla.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">2. Configuración básica</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id8">
+<div class="iDevice emphasis0" >
+<div id="ta8_128_2" class="block iDevice_content">
+<div class="exe-text"><p>Una vez que hemos creado el proyecto, se mostrará una pantalla similar a la siguiente:</p>
+<p><img src="PagInicial.png" alt="Pantalla inicial de Thunkable" width="1920" height="1020" /></p>
+<p>Como podemos observar, se divide en tres partes:</p>
+<ul>
+<li>Componentes (izquierda)</li>
+<li>Aplicación (centro)</li>
+<li>Características de la pantalla (derecha)</li>
+</ul>
+<p>En este ejercicio nos centraremos en las características de la pantalla (parte derecha). Sigue los siguientes pasos para personalizar nuestra pantalla.</p>
+<p><strong>1. Cambiar el nombre de la pantalla</strong></p>
+<div>
+<p>Por defecto la pantalla se llama <em>Screen1. </em>Vamos a cambiarle el nombre a Inicio. Para ello, pulsa sobre los tres puntos que hay junto al nombre inicial (Screen1) y selecciona la opción <em><strong>Rename:</strong></em></p>
+<p><em><strong><img src="RenameApp.png" alt="Renombrar la pantalla" width="282" height="138" style="display: block; margin-left: auto; margin-right: auto;" /></strong></em></p>
+<p>Cambiamos el nombre por pantalla de inicio:</p>
+<p><em><strong><img src="PantallaInicio.png" alt="Renombrar la pantalla" width="289" height="106" style="display: block; margin-left: auto; margin-right: auto;" /></strong></em>Cuando aceptemos podremos ver que en la parte izquierda también se ha cambiado el nombre:<strong><br /></strong></p>
+<p><strong><img src="NombrePantallaCambiado.png" alt="Nombre del componente de la pantalla cambiado" width="296" height="136" style="display: block; margin-left: auto; margin-right: auto;" /></strong></p>
+<p><strong>2. Cambiar la configuración básica</strong></p>
+<p>En la siguiente pantalla podemos cambiar tres elementos. Junto a cada uno de estos elementos se indica si está soportado para aplicaciones Android e iOS:</p>
+<ul></ul>
+</div>
+<p style="text-align: center;"><img src="PropBasic.png" alt="Propiedades básicas de la pantalla" width="287" height="297" /></p>
+<ul>
+<li style="text-align: justify;">Scrollable: si se permite que en la aplicación se haga scroll</li>
+<li style="text-align: justify;">Background: para cambiar el color de fondo</li>
+<li style="text-align: justify;">Orientación:
+<ul>
+<li style="text-align: justify;">Portrait (vertical)</li>
+<li style="text-align: justify;">Landscape (horizontal)</li>
+<li style="text-align: justify;">Auto (se cambie automáticamente)</li>
+</ul>
+</li>
+</ul>
+<p><strong>3. Modificar las características de la barra de estado</strong></p>
+<p>En esta imagen podemos observar qué elementos podemos modificar de la barra de estado:</p>
+<p><img src="BarraEstado.png" alt="Barra de estado" width="284" height="286" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<ul>
+<li>Visibility: si se muestra o no</li>
+<li>Style: con tres posibles valores
+<ul>
+<li>Por defecto: default</li>
+<li>Modo claro: light-content</li>
+<li>Modo oscuro: dark-content</li>
+</ul>
+</li>
+<li>Color</li>
+<li>Translucent: si queremos que la barra de estado sea translúcida o no</li>
+</ul>
+<p>Si pulsas en el botón Preview podrás ver una previsualización de la aplicación:</p>
+<p><img src="Preview.png" alt="Previsualizar la aplicación" width="401" height="85" style="display: block; margin-left: auto; margin-right: auto;" /></p></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper pblIdevice em_iDevice em_iDevice_activity" id="id7">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Tareas que debes realizar</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta7_127_2" class="block iDevice_content">
+<div class="pbl-task-description"><ul>
+<li>Cambia el nombre de la pantalla de inicio a PanelInicio</li>
+<li>Cambia el color de fondo</li>
+<li>Establece la orientación automática</li>
+<li>Haz visible la barra de estado</li>
+<li>El estilo será claro</li>
+<li>Pon un color de fondo azul</li>
+<li>Establece que sea translúcida</li>
+<li>Previsualiza la aplicación</li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="1_crear_el_proyecto.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="3_crear_una_nueva_pantalla.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_escolares_js.js"></script></body></html>
