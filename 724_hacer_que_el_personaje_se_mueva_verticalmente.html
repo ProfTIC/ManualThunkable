@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>5.1. Cambiar a la vista programación (bloques) | Manual básico de Thunkable: mi primera aplicación móvil </title>
+<title>7.2.4. Hacer que el personaje se mueva verticalmente | Manual básico de Thunkable: mi primera aplicación móvil </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta name="author" content="María Dolores Robles Ortega" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
@@ -16,7 +16,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-11"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-28"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <header id="header" ><div id="headerContent">Manual básico de Thunkable: mi primera aplicación móvil</div></header>
@@ -35,9 +35,9 @@
       <li><a href="45_nombre_de_los_componentes.html" class="no-ch">4.5. Nombre de los componentes</a></li>
    </ul>
    </li>
-   <li class="current-page-parent"><a href="5_incluyendo_interactividad.html" class="current-page-parent daddy">5. Incluyendo interactividad</a>
-   <ul>
-      <li id="active"><a href="51_cambiar_a_la_vista_programacin_bloques.html" class="active no-ch">5.1. Cambiar a la vista programación (bloques)</a></li>
+   <li><a href="5_incluyendo_interactividad.html" class="daddy">5. Incluyendo interactividad</a>
+   <ul class="other-section">
+      <li><a href="51_cambiar_a_la_vista_programacin_bloques.html" class="no-ch">5.1. Cambiar a la vista programación (bloques)</a></li>
       <li><a href="52_elementos_de_la_pantalla_de_bloques.html" class="no-ch">5.2. Elementos de la pantalla de bloques</a></li>
       <li><a href="53_cmo_programo_una_aplicacin_mvil_qu_es_la_programacin_orientada_a_eventos.html" class="daddy">5.3. ¿Cómo programo una aplicación móvil? ¿Qué es la programación orientada a eventos?</a>
       <ul class="other-section">
@@ -48,8 +48,8 @@
    </ul>
    </li>
    <li><a href="6_compartir_el_proyecto.html" class="no-ch">6. Compartir el proyecto</a></li>
-   <li><a href="7_ejemplos.html" class="daddy">7. Ejemplos</a>
-   <ul class="other-section">
+   <li class="current-page-parent"><a href="7_ejemplos.html" class="current-page-parent daddy">7. Ejemplos</a>
+   <ul>
       <li><a href="71_crear_una_aplicacin_de_dibujo.html" class="daddy">7.1. Crear una aplicación de dibujo</a>
       <ul class="other-section">
          <li><a href="711_creando_el_proyecto_y_el_canvas.html" class="no-ch">7.1.1. Creando el proyecto y el canvas</a></li>
@@ -57,12 +57,12 @@
          <li><a href="713_utilizando_un_control_switch_para_cambiar_entre_dos_colores.html" class="no-ch">7.1.3. Utilizando un control switch para cambiar entre dos colores</a></li>
       </ul>
       </li>
-      <li><a href="72_crear_una_aplicacin_con_animacin.html" class="daddy">7.2. Crear una aplicación con animación</a>
-      <ul class="other-section">
+      <li class="current-page-parent"><a href="72_crear_una_aplicacin_con_animacin.html" class="current-page-parent daddy">7.2. Crear una aplicación con animación</a>
+      <ul>
          <li><a href="721_creando_el_proyecto_y_el_canvas.html" class="no-ch">7.2.1. Creando el proyecto y el canvas</a></li>
          <li><a href="722_personalizando_el_objeto.html" class="no-ch">7.2.2. Personalizando el objeto</a></li>
          <li><a href="723_permitir_que_el_personaje_se_pueda_mover_manualmente_por_el_canvas.html" class="no-ch">7.2.3. Permitir que el personaje se pueda mover manualmente por el canvas</a></li>
-         <li><a href="724_hacer_que_el_personaje_se_mueva_verticalmente.html" class="no-ch">7.2.4. Hacer que el personaje se mueva verticalmente</a></li>
+         <li id="active"><a href="724_hacer_que_el_personaje_se_mueva_verticalmente.html" class="active no-ch">7.2.4. Hacer que el personaje se mueva verticalmente</a></li>
          <li><a href="725_programando_que_el_objeto_vuelva_a_una_posicin_cuando_toque_con_el_borde_del_fondo.html" class="no-ch">7.2.5. Programando que el objeto vuelva a una posición cuando toque con el borde del fondo</a></li>
       </ul>
       </li>
@@ -72,29 +72,20 @@
 </nav>
 <div id='topPagination'>
 <nav class="pagination noprt">
-<a href="5_incluyendo_interactividad.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="52_elementos_de_la_pantalla_de_bloques.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="723_permitir_que_el_personaje_se_pueda_mover_manualmente_por_el_canvas.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="725_programando_que_el_objeto_vuelva_a_una_posicin_cuando_toque_con_el_borde_del_fondo.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </nav>
 </div>
 <div id="main-wrapper">
 <section id="main">
-<header id="nodeDecoration"><h1 id="nodeTitle">5.1. Cambiar a la vista programación (bloques)</h1></header>
-<article class="iDevice_wrapper textIdevice" id="id27">
+<header id="nodeDecoration"><h1 id="nodeTitle">7.2.4. Hacer que el personaje se mueva verticalmente</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id46">
 <div class="iDevice emphasis0" >
-<div id="ta27_146_2" class="block iDevice_content">
-<div class="exe-text"><p>Para cambiar a la vista programación, tenemos que seleccionar la opción bloques. Tenemos dos opciones:</p>
-<ul>
-<li>Seleccionar la opción bloques (blocks o pulsar directamente con la tecla T)</li>
-</ul>
-<p><img src="OpcionBloques.png" alt="Opción para bloques" width="234" height="82" style="display: block; margin-left: auto; margin-right: auto;" /></p>
-<ul>
-<li>Elegir el elemento con el que queremos interactuar y seleccionar el botón Add Blocks del apartado Interactive del menú derecho</li>
-</ul>
-<p><img src="InteractiveBlocks.png" alt="Acceder al menú de bloques desde el apartado interactive" width="242" height="135" style="display: block; margin-left: auto; margin-right: auto;" /></p>
-<p>En cualquiera de los dos casos se nos mostrará una pantalla como la de la imagen:</p>
-<p><img src="PantallaBloques.png" alt="Pantalla de bloques" width="818" height="368" style="display: block; margin-left: auto; margin-right: auto;" /> </p>
-<p> </p>
-<p> </p>
-<p> </p></div>
+<div id="ta46_132_2" class="block iDevice_content">
+<div class="exe-text"><p>Para conseguir que el personaje se mueva verticalmente (como si estuviese cayendo por acción de la gravedad) hay que establecer a <strong>falso</strong> la propiedad<strong> ignore Gravity:</strong><strong></strong></p>
+<p><strong><img src="BotonIgnoreGravity.png" alt="Botón para que el personaje ignore la gravedad" width="144" height="113" style="display: block; margin-left: auto; margin-right: auto;" /></strong></p>
+<p>En el vídeo se puede observar el procedimiento y el resultado final:</p>
+<p><video width="640" height="480" style="display: block; margin-left: auto; margin-right: auto;" controls="controls">
+<source src="Gravedad.mp4" type="video/mp4" /></video></p></div>
 </div>
 </div>
 </article>
@@ -105,7 +96,7 @@
 </div>
 <div id='bottomPagination'>
 <nav class="pagination noprt">
-<a href="5_incluyendo_interactividad.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="52_elementos_de_la_pantalla_de_bloques.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="723_permitir_que_el_personaje_se_pueda_mover_manualmente_por_el_canvas.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="725_programando_que_el_objeto_vuelva_a_una_posicin_cuando_toque_con_el_borde_del_fondo.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </nav>
 </div>
 </div>
